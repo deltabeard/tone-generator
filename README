@@ -11,3 +11,10 @@ duration is the duration the tone will play in seconds.
 If duration isn't given, it is assumed to be 1 second.
 
 The gui is just two text boxes that fill in this data and call generator.
+
+```
+$ brew install sdl
+$ git clone https://github.com/sziep/tone-generator.git
+$ cd tone-generator && make
+$ ./generator 2000 700
+```
