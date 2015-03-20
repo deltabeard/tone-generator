@@ -1,4 +1,4 @@
-Tone Generator
+## Tone Generator
 
 This program has two parts.
 First, it has the command line version, called generator.
@@ -6,12 +6,15 @@ Second, it has the gui version, called Gui.tcl.
 
 Generator is called with the form
 generator freq [duration]
-freq is the frequency of the tone in Hz.
-duration is the duration the tone will play in seconds.
-If duration isn't given, it is assumed to be 1 second.
+
+- freq is the frequency of the tone in Hz.
+- duration is the duration the tone will play in milli seconds.
+
+If duration isn't given, it is assumed to be 1000 milli seconds.
 
 The gui is just two text boxes that fill in this data and call generator.
 
+## Installation
 ```
 $ brew install sdl
 $ git clone https://github.com/sziep/tone-generator.git
