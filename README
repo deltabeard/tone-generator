@@ -1,18 +1,18 @@
-## Tone Generator
+# Tone Generator
 
 This program has two parts.
-First, it has the command line version, called generator.
-Second, it has the gui version, called Gui.tcl.
+First, it has the command line version, called generator. Depends on sdl1.2
+Second, it has the GUI version, called Gui.tcl. Additionally depends on tclsh.
 
-Generator is called with the form
+Generator is called with the form:
 generator freq [duration]
 
 - freq is the frequency of the tone in Hz.
-- duration is the duration the tone will play in milli seconds.
+- duration is the duration the tone will play in milliseconds.
 
-If duration isn't given, it is assumed to be 1000 milli seconds.
+If duration isn't given, it is assumed to be 1000 milliseconds.
 
-The gui is just two text boxes that fill in this data and call generator.
+The GUI is just two text boxes that fill in this data and call generator.
 
 ## Installation
 ```
